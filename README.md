@@ -7,7 +7,7 @@ The main purpose of this library is to be able to reduce any JS data structure t
 ```js
 const primitive = 1;
 const flat = flatten(primitive, "", ".", "[", "]", []);
-console.log(flat); // [ ['FlatRootPrimitive', 1] 
+console.log(flat); // [['FlatRootPrimitive', 1]] 
 ```
 
 2. Flatten arrays
