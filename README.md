@@ -20,7 +20,7 @@ console.log(flat); // [['FlatRootArray[0]', 1], ['FlatRootArray[1]', 2], ['FlatR
 3. Flatten objects
 ```js
 const object = {foo: "bar"};
-const flat = flatten(array, "", ".", "[", "]", []);
+const flat = flatten(object, "", ".", "[", "]", []);
 console.log(flat); // [['FlatRootObject.foo', 'bar']]
 ```
 
